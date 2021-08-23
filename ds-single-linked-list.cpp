@@ -217,6 +217,7 @@ void deleteatposition(){
             e->p=f;
             e=NULL;
             f=NULL;
+	    k--;
         }
     }
 
