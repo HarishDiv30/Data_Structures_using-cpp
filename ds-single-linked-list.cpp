@@ -40,8 +40,8 @@ void deleteatposition();
 void display_list();
 
 int main(){
-
-    int flag=1,input,input2;
+	cout<<"Hello!!!";
+    int flag=1,input;
 
     while (flag==1){
         cout<<"\n1 to insert node at first\n2 to insert node at last\n3 to insert node at location\n";
@@ -144,7 +144,7 @@ void insertatposition(){
         }
         e->p=insert;
         insert->p=f;
-
+		k++;
     }
 }
 void deleteAtfirst(){
